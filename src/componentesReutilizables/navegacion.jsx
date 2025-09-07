@@ -24,7 +24,7 @@ const Navegacion = () => {
     const colorBarra = colorFondo === colores.azulOscuro ? otrosColores.blanco : otrosColores.gris;
 
     return(
-        <nav className="w-full h-24 border-b-2 border-b-amber-50 flex justify-between items-center p-8 text-amber-50 fixed" style={{backgroundColor: colorFondo}}>
+        <nav className="w-full m-0 h-24 border-b-2 border-b-amber-50 flex justify-between items-center p-8 text-amber-50 fixed" style={{backgroundColor: colorFondo}}>
             <ul className="w-full h-0.5 px-4 flex justify-around items-center" style={{backgroundColor: colorBarra}}>
                 <div className="flex justify-around w-3/5">
                     <div className="px-4" style={{backgroundColor: colorFondo}}>

@@ -1,5 +1,4 @@
 import Navegacion from "../componentesReutilizables/navegacion";
-import Graficos from "../componentesReutilizables/seccionGrafico1";
 import fotoPerfil from "../assets/imagenes/PhotoProfile.jpeg";
 import { SiPython, SiJavascript, SiPhp, SiDjango, SiPostgresql, SiMongodb } from "react-icons/si";
 import { DiReact, DiMysql } from "react-icons/di";
@@ -7,6 +6,7 @@ import { FaJava } from "react-icons/fa";
 import { RiTailwindCssLine } from "react-icons/ri";
 import Grafico1 from "../componentesReutilizables/seccionGrafico1";
 import Grafico2 from "../componentesReutilizables/seccionGrafico2";
+import Timeline from "../componentesReutilizables/lineaTiempo";
 
 const Index = () => {
 
@@ -35,9 +35,8 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
                     <h1 className="text-3xl md:text-4xl font-bold text-white">
                         Hola, soy <span className="text-blue-600">Oscar Montoya</span>
                     </h1>
-
                 <p className="mt-4 text-base md:text-lg text-white">
-                    Soy tecnologo en{" "}
+                    Soy tecnólogo en{" "}
                     <span className="font-semibold text-blue-300">
                     Analisis y desarrollo de software
                     </span>{" "}
@@ -116,6 +115,9 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
         </section>
         <section>
             <Grafico2/>
+        </section>
+        <section id="lineaTiempo">
+            <Timeline/>
         </section>
         </>
     );

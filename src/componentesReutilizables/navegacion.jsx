@@ -38,7 +38,9 @@ const Navegacion = () => {
                         </a>
                     </div>
                     <div className="px-4" style={{backgroundColor: colorFondo}}>
+                        <a href="#lineaTiempo">
                         <button className="bg-blue-900 py-2.5 px-6 border border-slate-300 rounded-lg hover:bg-blue-600 transition">Mis estudios</button>
+                        </a>
                     </div>
                     <div className="px-4" style={{backgroundColor: colorFondo}}>
                         <button className="bg-blue-900 py-2.5 px-6 border border-slate-300 rounded-lg hover:bg-blue-600 transition">Contactame!</button>

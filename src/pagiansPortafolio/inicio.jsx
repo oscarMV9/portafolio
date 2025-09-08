@@ -1,9 +1,12 @@
 import Navegacion from "../componentesReutilizables/navegacion";
+import Graficos from "../componentesReutilizables/seccionGrafico1";
 import fotoPerfil from "../assets/imagenes/PhotoProfile.jpeg";
 import { SiPython, SiJavascript, SiPhp, SiDjango, SiPostgresql, SiMongodb } from "react-icons/si";
 import { DiReact, DiMysql } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
 import { RiTailwindCssLine } from "react-icons/ri";
+import Grafico1 from "../componentesReutilizables/seccionGrafico1";
+import Grafico2 from "../componentesReutilizables/seccionGrafico2";
 
 const Index = () => {
 
@@ -14,12 +17,12 @@ const mes = hoy.getMonth() - fechaNaciemiento.getMonth();
 
 if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
     edad--;
-  }
+};
 
     return (
         <>
         <Navegacion/>
-        <section className="min-h-screen flex items-center justify-center bg-[#000021] pt-28">
+        <section className="min-h-screen flex items-center justify-center bg-gradient-to-r from-[#041649] to-[#4372ca] py-28" id="quienSoy">
             <div className="max-w-4xl mx-auto mt-7 flex flex-col md:flex-row items-center gap-8 px-4">
                 <div className="">
                     <img
@@ -104,12 +107,16 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
                             <SiMongodb size={20} />
                             MongoDB
                         </div>
-                    </div>
-                    
+                    </div>                
                 </div>
             </div>
         </section>
-
+        <section id="GraficoHabilidades" >
+            <Grafico1/>
+        </section>
+        <section>
+            <Grafico2/>
+        </section>
         </>
     );
 }

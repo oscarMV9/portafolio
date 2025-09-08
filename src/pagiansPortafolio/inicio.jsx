@@ -7,6 +7,7 @@ import { RiTailwindCssLine } from "react-icons/ri";
 import Grafico1 from "../componentesReutilizables/seccionGrafico1";
 import Grafico2 from "../componentesReutilizables/seccionGrafico2";
 import Timeline from "../componentesReutilizables/lineaTiempo";
+import ModalExample from "../componentesReutilizables/informacionMia";
 
 const Index = () => {
 
@@ -32,9 +33,12 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
                     />
                     </div>
                 <div className="text-center md:text-left">
+                    <div className="flex items-center justify-center max-md:flex-col gap-4">
                     <h1 className="text-3xl md:text-4xl font-bold text-white">
                         Hola, soy <span className="text-blue-600">Oscar Montoya</span>
                     </h1>
+                    <ModalExample/>
+                    </div>
                 <p className="mt-4 text-base md:text-lg text-white">
                     Soy tecnólogo en{" "}
                     <span className="font-semibold text-blue-300">
@@ -110,6 +114,7 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
                 </div>
             </div>
         </section>
+        
         <section id="GraficoHabilidades" >
             <Grafico1/>
         </section>

@@ -27,13 +27,15 @@ export default function ModalExample() {
               &times;
             </button>
             <p className="text-black font-semibold">
-              Soy Oscar Eduardo Montoya Vergara y vivo en bogotá colombia.
+              Soy Oscar Eduardo Montoya Vergara y soy de bogotá Colombia, Soy alguien muy apacionado por 
+              el desarrollo web y la tegnologia en general;  Me gusta ayudar a las personas con mis habilidades
+              tecnicas y blandas que he aprendido a lo largo de mi vida.
             </p>
             <p className="text-black font-semibold">
-                Mis pasatiempos son jugar videojuegos, cocinar, salir con mis amigos
+              Me gusta bastante jugar videojuegos con amigos, salir a caminar ademas me gusta cocinar.
             </p>
-            <p className="text-black font-semibold mb-9">
-                MI objetivo de vida es ser un gran desarrollador web y poder trabajar en una gran empresa de tecnologia la cual me permita crecer tanto personal como profesionalmente.
+            <p className="mb-4 text-black font-semibold">
+              Mi meta a corto plazo es conseguir un trabajo como desarrollador web y seguir aprendiendo nuevas tecnologias.
             </p>
             <div className="flex justify-center">
                 <button

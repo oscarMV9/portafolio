@@ -8,6 +8,8 @@ import Grafico1 from "../componentesReutilizables/seccionGrafico1";
 import Grafico2 from "../componentesReutilizables/seccionGrafico2";
 import Timeline from "../componentesReutilizables/lineaTiempo";
 import ModalExample from "../componentesReutilizables/informacionMia";
+import FormularioContacto from "../componentesReutilizables/formularioContacto";
+import DemoCounter from "../componentesReutilizables/codigosVisibles";
 
 const Index = () => {
 
@@ -123,6 +125,12 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
         </section>
         <section id="lineaTiempo">
             <Timeline/>
+        </section>
+        <section>
+            <DemoCounter/>
+        </section>
+        <section>
+            <FormularioContacto/>
         </section>
         </>
     );

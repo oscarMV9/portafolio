@@ -38,7 +38,7 @@ export default function Timeline() {
     <div className="p-6 max-w-full mx-auto flex flex-gap-6 flex-col gap-6 max-md:flex-col bg-gradient-to-r from-[#041649] to-[#4372ca]">
       <h2 className="text-3xl font-bold mb-12 text-center">Mi recorrido por la vida del desarrollo...</h2>
 
-      <div className="relative border-l border-gray-300 dark:border-gray-600 px-8">
+      <div className="relative border-l border-gray-300 dark:border-gray-600 px-8 m-auto">
         {timelineData.map((item, index) => (
           <motion.div
             key={index}

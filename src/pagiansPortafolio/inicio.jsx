@@ -1,7 +1,6 @@
 import Navegacion from "../componentesReutilizables/navegacion";
 import fotoPerfil from "../assets/imagenes/PhotoProfile.jpeg";
-import { SiPython, SiJavascript, SiPhp, SiDjango, SiPostgresql, SiMongodb } from "react-icons/si";
-import { DiReact, DiMysql } from "react-icons/di";
+import { SiPython, SiJavascript, SiPhp, SiDjango, SiPostgresql, SiMongodb } from "react-icons/si"; import { DiReact, DiMysql } from "react-icons/di";
 import { FaJava } from "react-icons/fa";
 import { RiTailwindCssLine } from "react-icons/ri";
 import Grafico1 from "../componentesReutilizables/seccionGrafico1";
@@ -9,7 +8,7 @@ import Grafico2 from "../componentesReutilizables/seccionGrafico2";
 import Timeline from "../componentesReutilizables/lineaTiempo";
 import ModalExample from "../componentesReutilizables/informacionMia";
 import FormularioContacto from "../componentesReutilizables/formularioContacto";
-import DemoCounter from "../componentesReutilizables/codigosVisibles";
+import DemoCounter from "../componentesReutilizables/MuestraCodigos";
 
 const Index = () => {
 
@@ -37,7 +36,7 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
                 <div className="text-center md:text-left">
                     <div className="flex items-center justify-center max-md:flex-col gap-4">
                     <h1 className="text-3xl md:text-4xl font-bold text-white">
-                        Hola, soy <span className="text-blue-600">Oscar Montoya</span>
+                        Hola, soy <span className="text-[#a077e4]">Oscar Montoya</span>
                     </h1>
                     <ModalExample/>
                     </div>
@@ -129,7 +128,7 @@ if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
         <section>
             <DemoCounter/>
         </section>
-        <section>
+        <section id="Contactame">
             <FormularioContacto/>
         </section>
         </>

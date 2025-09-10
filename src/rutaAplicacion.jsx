@@ -3,7 +3,7 @@ import Index from "./pagiansPortafolio/inicio";
 
 export default function App() {
     return(
-        <Router>
+        <Router basename="/portafolio">
             <Routes>
                 <Route path="/" element={<Index/>}/>
             </Routes>

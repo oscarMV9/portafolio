@@ -45,10 +45,10 @@ const FormularioContacto = () => {
 
         emailjs
         .sendForm(
-            "service_8fc6d2l",
-            "template_zetimrc",
+            import.meta.env.VITE_EMAILJS_SERVICE_ID,
+            import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
             form.current,
-            "a8lrAhtDAzPiawI3G",
+            import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         )
         .then(
             (result) => {

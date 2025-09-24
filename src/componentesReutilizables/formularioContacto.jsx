@@ -91,9 +91,9 @@ const FormularioContacto = () => {
                         </a>
                     </button>
                     <button className="bg-white text-black px-6 py-2 rounded-lg font-semibold shadow-md hover:bg-[#cacaca] transition">
-                        <a href="https://profile.magneto365.com/pl/oscarmontoya119-8568155?utm_source=app-magneto-sharing&utm_medium=display&utm_campaign=clipboard" target="_blank">
-                            <Cv />
-                        </a>
+                          <a href="https://profile.magneto365.com/pl/oscarmontoya119-8568155">
+                              <Cv />
+                          </a>
                     </button>
                     <button className="bg-[#20e040] text-white px-6 py-2 rounded-lg font-semibold shadow-md hover:bg-[#1e7429] transition">
                         <a href="https://wa.link/gkd4jp">

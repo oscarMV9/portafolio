@@ -97,7 +97,7 @@ const FormularioContacto = () => {
                     </button>
                     <button className="bg-[#20e040] text-white px-6 py-2 rounded-lg font-semibold shadow-md hover:bg-[#1e7429] transition">
                         <a href="https://wa.link/gkd4jp">
-                        <Whatsapp/>
+                            <Whatsapp/>
                         </a>
                     </button>
                 </div>

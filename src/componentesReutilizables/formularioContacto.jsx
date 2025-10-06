@@ -91,7 +91,7 @@ const FormularioContacto = () => {
                         </a>
                     </button>
                     <button className="bg-white text-black px-6 py-2 rounded-lg font-semibold shadow-md hover:bg-[#cacaca] transition">
-                        <a href="https://profile.magneto365.com/pl/oscarmontoya119-8568155">
+                        <a href="https://docs.google.com/document/d/1BdpHdfSiZa9tvqpIgJVvhWaRWizPNEki/edit?usp=sharing&ouid=106237300417292728245&rtpof=true&sd=true">
                                 <Cv />
                         </a>
                     </button>
